@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Multi-coloured Progress Bars</title>
+    <style type="text/css">
+      *{
+        padding: 0px;
+        margin: 0px;
+        box-sizing: border-box;
+      }
+      body {
+        padding: 2em;
+        background-color: #fafafa;
+      }
+      .meter {
+        background-color: #ebebeb;
+        height: 20px;
+        width: 70%;
+        border-radius: 150px;
+        margin-bottom: 18px;
+      }
+      .green {
+        background-color: #b5df7b;
+        height:  100%;
+        border-radius: 150px;
+        border: 1px solid rgba(0, 0, 0, 0.2);
+      }
+      .red {
+        background-color: #fa9080;
+        height:  100%;
+        border-radius: 150px;
+        border: 1px solid rgba(0, 0, 0, 0.2);
+      }
+      .white {
+        background-color: white;
+        height:  100%;
+        border-radius: 150px;
+        border: 1px solid rgba(0, 0, 0, 0.2);
+      }
+      .yellow {
+        background-color: #fdd670;
+        height:  100%;
+        border-radius: 150px;
+        border: 1px solid rgba(0, 0, 0, 0.2);
+      }
+      .blue {
+        background-color: #a0d5f5;
+        height:  100%;
+        border-radius: 150px;
+        border: 1px solid rgba(0, 0, 0, 0.2);
+      }
+      span {
+        font-size: 13px;
+        font-color: #000;
+        display: inline-flex;
+        align-items: center;  
+        width: 100%;
+        justify-content: flex-end;
+        padding-right: 1em;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="meter">
+	   <div style="width: 50%" class="green">
+      <span>50%</span> 
+     </div>
+    </div>
+    <div class="meter">
+     <div style="width: 50%" class="red">
+       <span>50%</span> 
+     </div>
+    </div>
+    <div class="meter">
+     <div style="width: 50%" class="white">
+       <span>50%</span> 
+     </div>
+    </div>
+    <div class="meter">
+     <div style="width: 50%" class="blue">
+       <span>50%</span> 
+     </div>
+    </div>
+    <div class="meter">
+     <div style="width: 50%" class="yellow">
+       <span>50%</span> 
+     </div>
+    </div>
+  </body>
+</html>
